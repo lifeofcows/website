@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home Page</title>
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/dcd79ad420.js"></script>
+  <script src="javascript.js"></script>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class = "header">
+    <nav class="navbar navbar-inverse" role="navigation">
+      <div id="main-nav" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="#" class="scroll-link" data-id="about">about</a></li>
+          <li><a href="#" class="scroll-link" data-id="resume">resume</a></li>
+          <li><a href="#" class="scroll-link" data-id="projects">projects</a></li>
+          <li><a href="#" class="scroll-link" data-id="contact">contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div style="height:45px"></div>
+  <br/>
+  <img src="/images/himaxim.png" class="img-responsive center-block" alt="Responsive image">
+  <div style="height:11px"></div>
+</div>
+<div id="about" class="page-section">
+  <div class="container">
+    <h2 class = "page-headers">about</h2>
+    <div id="content">
+      <img src="/images/maximpic.png" class="img-circle center-block" height="200px" width="200px" alt="Responsive image">
+      <p class="caption"  style="text-align: center">I am a second year undergraduate student studying Computer Science at Carleton University.
+      </br>My interests include web development, front-end and back-end development, sound design, filmmaking.
+    </div>
+  </div>
+  <!--/.container-->
+</div>
+<!-- <img src="/images/maximpic.png" class="img-circle center-block" height="200px" width="200px" alt="Responsive image"> -->
+
+<div id="resume" class="page-section">
+  <div class="container">
+    <h2 class = "page-headers">resume</h2>
+    <p class="caption">EDUCATION</br>
+Bachelor of Computer Science, Mobile Computing, Co-op Option Carleton University, Ottawa, ON </br>
+● 2015 Year Undergraduate, CGPA 10.4/12.0 (A-)</br>
+● Lester B. Pearson Scholarship (2015, 2016)</br>
+● 2015 Dean’s Honour List</br>
+● Expected Graduation: April 2020</br>
+</br>
+TECHNICAL SKILLS</br>
+● Proficient in various computer languages, including Python, Java, C, C++, HTML, CSS, JavaScript, as well as languages oriented towards mobile development, such as Swift.</br>
+● Implementation of testing files for Java class, android and iOS applications to display the functionality and to facilitate the development process.</br>
+● Used Terminal and Vim through the Ubuntu operating system to develop low-level system applications with C.</br>
+● Constructed web servers with the ability to handle user requests in a secure and reliable manner.</br>
+● Performed elaborate debugging to various programs to ensure the completeness of functionality and performance.</br>
+</br>
+COMMUNICATION SKILLS</br>
+● Wrote documentation for various projects to communicate their purpose clearly and concisely.</br>
+● Instructed and assisted students by answering their questions in a short but concise format to strengthen both their programming and logic skills.</br>
+● Instructed and supervised swimming classes by clearly explaining and demonstrating various swim methods, furthering the swimmers’ skills both physically and academically.</br>
+</br>
+WORK EXPERIENCE</br>
+Teaching Assistant for COMP 1405 (Carleton University), September 2016 - December 2016</br>
+● Guided and mentored students during tutorial sessions by presenting and answering questions to facilitate and advance their understanding of Python coding concepts.</br>
+● Evaluated student performance by examining their work to assess their understanding of code functionality and by providing feedback to enhance their learning.</br>
+● Managed emails to professors and students to streamline the overall work process.</br></br>
+Server (Via Cibo), June 2016 - Sept 2016</br>
+● Accurately recorded orders and partnered with team members to serve food and beverages that exceed customers’ expectations in a high-energy environment.</br>
+● Delegated work based on priority by promptly assisting other team members to maximize restaurant speed and efficiency in service.</br></br>
+VOLUNTEER EXPERIENCE AND EXTRACURRICULAR EXPERIENCE</br>
+● Member of the Carleton Computer Science Society</br>
+● Annual City of Ottawa Mayor’s Christmas event to assist people with orientation, as well as to control and accordingly traffic large groups of people.</br>
+</p>
+  </div>
+  <!--/.container-->
+</div>
+<div id="projects" class="page-section">
+  <div class="container">
+    <h2 class = "page-headers">projects</h2>
+    <p class="caption">
+Concentration Memory Game</br>
+Developed a concentration memory game using HTML, CSS, Javascript, JQuery, and Node js, fully equipped with interaction effects, point scores and animations.</br></br>
+Voltex: The Editable Waveform Synth Tool</br>
+Collaborated using C++, Visual Studio and Github to create a wave-table GUI-based additive synthesizer with the assistance of the WD-OL library for release as a simple, instructional tool for the learning of the principle of basic sound design.</br></br>
+Numeric Base Converter</br>
+Created interactive iOS and Android applications with the ability to handle various numeric base conversion operations, using Swift and Android Studio.
+    </p>
+  </div>
+  <!--/.container-->
+</div>
+<div id="contact" class="page-section">
+  <div class="container">
+    <h2 class = "page-headers">contact</h2>
+    <p class="caption" style="text-align: center">If you have any questions, feel free to send me a message here or by email!</p>
+    <form class="form-horizontal" role="form" style="width: 50%;">
+      <div class="form-group">
+        <label for="name" class="col-sm-2 control-label">Name</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="name" name="name" placeholder="" value="">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="email" class="col-sm-2 control-label">Email</label>
+        <div class="col-sm-10">
+          <input type="email" class="form-control" id="email" name="email" placeholder="" value="">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="message" class="col-sm-2 control-label">Message</label>
+        <div class="col-sm-10">
+          <textarea class="form-control" rows="4" name="message"></textarea>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-sm-10 col-sm-offset-2">
+          <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-sm-10 col-sm-offset-2">
+          <!--Will be used to display an alert to the user-->
+        </div>
+      </div>
+    </form>
+  </div>
+  <!--/.container-->
+</div>
+<div class = "navbar navbar-default navbar-fixed-bottom">
+  <p class="navbar-text">maxim.kuzmenko1@gmail.com</p>
+  <a href="https://www.linkedin.com/in/maximkuzmenko1">
+    <i class="navbar-brand fa fa-linkedin fa-2x pull-right" aria-hidden="true"></i>
+    <a href="https://github.com/lifeofcows">
+      <i class="navbar-brand fa fa-github fa-2x pull-right" aria-hidden="true"></i>
+      <a href="https://www.facebook.com/lifeofcows">
+        <i class="navbar-brand fa fa-facebook fa-2x pull-right" aria-hidden="true"></i>
+      </a>
+      <p class="navbar-text pull-right">find me here: </p>
+    </div>
+  </body>
+  </html>

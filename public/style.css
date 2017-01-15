@@ -1,0 +1,52 @@
+body {
+    background-image: url("images/yellow.jpg");
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+footer {
+  margin-top: 7.75cm;
+  background-color: white;
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.page-section {
+  /*position: relative;*/
+	width: 100%;
+	min-height: 500px;
+	padding: 50px 0;
+	border-bottom: 10px solid #fff;
+  background-image: url("images/bg.jpg"); top center no-repeat;
+}
+
+.page-headers {
+  text-align: center;
+  color: white;
+}
+
+.page-section p.caption {
+
+	color: #fff;
+	padding: 20px;
+	/*text-shadow: 1px 1px 1px #000;*/
+}
+
+.header {
+	position: fixed;
+  width: 100%
+}
+
+form {
+    display: inline-block;
+    text-align: center;
+    margin-left: 21%;
+    margin-right:25%;
+  }
